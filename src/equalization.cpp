@@ -96,7 +96,7 @@ int main(int argc, char **argv)
 		printf("摄像头没有正常打开，重新插拔工控机上当摄像头\n");
 		return 0;
 	}
-	waitKey(1000);
+    waitKey(1000);
 	Mat img;//当前帧图片  
 	int nFrames = 0;//图片帧数
 	int frameWidth = capture.get(CV_CAP_PROP_FRAME_WIDTH);//图片宽

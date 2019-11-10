@@ -130,6 +130,13 @@ add_executable(imagesub src/imagesub.cpp)
 target_link_libraries(imagesub ${catkin_LIBRARIES} ${OpenCV_LIBRARIES}) 
 add_executable(equalization src/equalization.cpp)
 target_link_libraries(equalization ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+add_executable(DIP_P2 src/DIP_P2.cpp)
+target_link_libraries(DIP_P2 ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+add_executable(DIP_P4 src/DIP_P4.cpp)
+target_link_libraries(DIP_P4 ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+add_executable(DIP_P4s src/DIP_P4s.cpp)
+target_link_libraries(DIP_P4s ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+
 
 
 #add_dependencies(mytest opencvexam_gencpp) add_executable(imagesub src/imagesub.cpp) target_link_libraries(imagesub ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
